@@ -16,7 +16,7 @@ result = 'No'
 cnt=0
 
 if start==1:
-    for i in range(startAindex, n1):
+    for i in range(startAindex, n1+1):
         if cnt==n2:
             break
         if A[i]==B[cnt]:
