@@ -7,9 +7,9 @@ start=0
 startAindex = -1
 
 for i in range(n1):
-    if A[i]==B[1]:
+    if A[i]==B[0]:
         start=1
-        startAindex = i-1
+        startAindex = i
         break
 
 result = 'No'
